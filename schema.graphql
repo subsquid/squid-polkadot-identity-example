@@ -1,0 +1,11 @@
+type AccountIdentity @entity {
+  id: ID!,
+  web: String,
+  riot: String,
+  email: String,
+  image: String,
+  legal: String,
+  display: String,
+  twitter: String,
+  pgpFingerprint: String
+}

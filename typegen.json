@@ -1,0 +1,11 @@
+{
+  "outDir": "src/types",
+  "chainVersions": "polkaVersions.json",
+  "typesBundle": "polkadot",
+  "events": [
+    "identity.IdentitySet"
+  ],
+  "calls": [
+    "identity.set_identity"
+  ]
+}
